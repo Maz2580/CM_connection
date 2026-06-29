@@ -10,6 +10,7 @@ download_test/
 *.xlsx
 *.XLSX
 manifest.json
+candidates.csv
 
 # FME logs
 *.log
@@ -21,3 +22,6 @@ tmpclaude-*
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# Local copy with credentials - never push
+sde_connection.py
