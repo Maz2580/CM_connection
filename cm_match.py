@@ -81,7 +81,10 @@ def run(candidates_arg, output_dir, database_id="SH"):
             entry["title"] = rec.title
             entry["has_document"] = rec.has_document
             if rec.has_document:
-                dl = downloader.download_record(num, output_dir)
+                safe = num.replace("/", "_").replace("\\", "_")
+                rec_dir = os.path.join(output_dir, safe)
+                os.makedirs(rec_dir, exist_ok=True)
+                dl = downloader.download_record(num, rec_dir)
                 entry["success"] = dl.success
                 entry["filepath"] = dl.file_path if dl.success else None
                 entry["error"] = None if dl.success else dl.error_message
