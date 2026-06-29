@@ -1,0 +1,23 @@
+# Python environments
+venv32/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Downloaded documents / test output
+download_test/
+*.xlsx
+*.XLSX
+manifest.json
+
+# FME logs
+*.log
+
+# Temp / scratch files
+tmpclaude-*
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store

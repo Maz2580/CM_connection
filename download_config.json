@@ -1,0 +1,11 @@
+{
+    "description": "Configuration for Content Manager batch downloads - Edit this file before running FME",
+
+    "record_number": "E24/3074",
+    "output_directory": "C:\\Users\\maz.ghasemi\\Downloads\\Maz - 2 July 2025\\python\\connection\\content_manager\\custom_search\\download_test",
+
+    "options": {
+        "create_manifest": true,
+        "database_id": "SH"
+    }
+}
