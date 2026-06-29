@@ -17,7 +17,7 @@ if TOOL_DIR not in sys.path:
 from record_extractor import extract_from_row
 
 
-class RecordNumberExtractor(object):
+class FeatureProcessor(object):
     def input(self, feature):
         # Build a dict of all attributes on the feature
         row = {name: feature.getAttribute(name) for name in feature.getAllAttributeNames()}
