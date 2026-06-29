@@ -19,7 +19,7 @@ import subprocess
 TOOL_DIR = r"C:\Users\maz.ghasemi\Downloads\Maz - 2 July 2025\python\connection\content_manager\custom_search"
 PY32 = os.path.join(TOOL_DIR, "venv32", "Scripts", "python.exe")
 MATCH = os.path.join(TOOL_DIR, "cm_match.py")
-OUTPUT_DIR = r"C:\GIS\Data\CM_Downloads"   # <-- set your download folder
+OUTPUT_DIR = r"E:\Administration\FME Jobs\Tests\FME flow\creating live query system\Camms projects\test"   # download folder
 
 
 class FeatureProcessor(object):
