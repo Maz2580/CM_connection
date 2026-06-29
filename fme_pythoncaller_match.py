@@ -22,7 +22,7 @@ MATCH = os.path.join(TOOL_DIR, "cm_match.py")
 OUTPUT_DIR = r"C:\GIS\Data\CM_Downloads"   # <-- set your download folder
 
 
-class CMMatcher(object):
+class FeatureProcessor(object):
     def __init__(self):
         self.features = []
         self.logger = fmeobjects.FMELogFile()
